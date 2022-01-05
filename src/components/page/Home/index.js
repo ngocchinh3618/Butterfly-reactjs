@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import GLightbox from 'glightbox'
 import Isotope from 'isotope-layout'
 import Swiper from 'swiper'
-import Main from './main'
+import Hero from './Hero'
 
 export default function Home() {
     useEffect(() => {
@@ -227,7 +227,7 @@ export default function Home() {
     })
   return (
     <div>
-      <Main/>
+      <Hero/>
     </div>
   )
 }

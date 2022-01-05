@@ -1,7 +1,7 @@
 import React from 'react'
 import { SERVICE_DATA } from '../../data'
 import Service from './Service'
-import './services.css'
+
 export default function Services() {
     const servicedata = SERVICE_DATA.map(data =>
         <Service

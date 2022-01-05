@@ -1,15 +1,15 @@
 import React from 'react'
-import Home from './home/Home'
-import About from './about'
-import Count from './counts'
-import Clients from './clients'
-import Services from './services'
-import Portfolios from "./portfolio"
-import Header from '../header'
-import Testimonials from './testimonials'
-import Teams from './teams'
-import Galleries from './gallery'
-import Contacts from './contact'
+import Home from './Home'
+import About from './About'
+import Count from './Counts'
+import Clients from './Clients'
+import Services from './Services'
+import Portfolios from "./Portfolio"
+import Header from '../../common/header'
+import Testimonials from './Testimonials'
+import Teams from './Teams'
+import Galleries from './Gallery'
+import Contacts from './Contact'
 export default function Index() {
     return (
         <>

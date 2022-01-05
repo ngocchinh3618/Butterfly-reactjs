@@ -1,4 +1,4 @@
-.services .icon-box {
+.icon-box {
     padding: 30px;
     position: relative;
     overflow: hidden;
@@ -9,38 +9,38 @@
     transition: all 0.3s ease-in-out;
 }
 
-.services .icon-box:hover {
+.icon-box:hover {
     transform: translateY(-5px);
 }
 
-.services .icon {
+.icon {
     position: absolute;
     left: -20px;
     top: calc(50% - 30px);
 }
 
-.services .icon i {
+.icon i {
     font-size: 64px;
     line-height: 1;
     transition: 0.5s;
 }
 
-.services .title {
+.title {
     margin-left: 40px;
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
 }
 
-.services .title a {
+.title a {
     color: #111;
 }
 
-.services .icon-box:hover .title a {
+.icon-box:hover .title a {
     color: #49b5e7;
 }
 
-.services .description {
+.description {
     font-size: 14px;
     margin-left: 40px;
     line-height: 24px;

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Styles from './Testimonial.module.css'
 export default function TestimonialItem(props) {
     return (
         <div className="swiper-slide">
-            <div className="testimonial-item">
-                <img src={props.img} className="testimonial-img" alt="" />
+            <div className={Styles["testimonial-item"]}>
+                <img src={props.img} className={Styles["testimonial-img"]} alt="" />
                     <h3>{props.name}</h3>
                     <h4>{props.pos}</h4>
                     <p>

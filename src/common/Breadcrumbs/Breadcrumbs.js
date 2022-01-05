@@ -12,7 +12,6 @@ export default function Breadcrumbs() {
                         <li>Portfolio Details</li>
                     </ol>
                 </div>
-
             </div>
         </section>
     )

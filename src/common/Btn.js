@@ -6,7 +6,7 @@ export default function Btn(props) {
     }
     return (
         <button 
-        className="btn-get-started scrollto" 
+        className={"btn-get-started scrollto " + props.className} 
         onClick={onBtnClick}
         >
             {props.name}

@@ -3,7 +3,7 @@ import Map from './Map'
 import Info from './Info'
 import Form from './Form'
 import Title from './Title'
-import './contact.css'
+
 export default function Contacts() {
   return (
     <section id="contact" className="contact">

@@ -1,6 +1,5 @@
 // import React from 'react';
 import logo from "../../assets/img/logo.png"
-import "./header.css";
 import Navbar from "./Navbar";
 
 

@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Styles from './Portfoliodetail.module.css'
+
 export default function PortfolioDetailInfo() {
     return (
-        <div className="portfolio-info">
+        <div className={Styles["portfolio-info"]}>
             <h3>Project information</h3>
             <ul>
                 <li><strong>Category</strong>: Web design</li>

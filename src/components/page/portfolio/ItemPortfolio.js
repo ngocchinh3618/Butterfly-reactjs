@@ -1,15 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Styles from "./Portfolio.module.css"
 
 export default function ItemPortfolio(props) {
   return (
     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-      <div className="portfolio-wrap">
+      <div className={Styles['portfolio-wrap']}>
         <img src={props.img} className="img-fluid" alt="" />
-        <div className="portfolio-info">
+        <div className={Styles['portfolio-info']}>
           <h4>{props.title}</h4>
           <p>{props.name}</p>
-          <div className="portfolio-links">
+          <div className={Styles['portfolio-links']}>
             <Link
               to={props.linkImg} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1">
               <i className="bx bx-plus"></i>

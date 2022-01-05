@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Index from "../components/page";
-import PortfolioDetails from "../components/page/portfolio/portfolio-detail";
+import PortfolioDetails from "../components/page/Portfolio/Portfolio-detail";
 
 export default function Directions() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import NavLink from "./NavLink";
-import { NAV } from "../data";
+import { NAV } from "../../components/data";
 
 export default function Navbar() {
 

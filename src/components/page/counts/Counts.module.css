@@ -15,18 +15,18 @@
     bottom: 0;
 }
 
-.counts .title {
+.title {
     position: relative;
     color: #0f394c;
     margin-bottom: 40px;
 }
 
-.counts .title h3 {
+.title h3 {
     font-size: 36px;
     font-weight: 700;
 }
 
-.counts .counters span {
+.counters span {
     font-size: 44px;
     font-weight: 700;
     display: block;
@@ -34,7 +34,7 @@
     font-family: "Dosis", sans-serif;
 }
 
-.counts .counters p {
+.counters p {
     padding: 0;
     margin: 0 0 20px 0;
     font-size: 15px;
