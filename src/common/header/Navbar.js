@@ -1,11 +1,13 @@
 import React from 'react';
 import NavLink from "./NavLink";
 import { NAV } from "../../components/data";
+// import "./Navbar.css";
+import Styles from "./Navbar.module.css";
 
 export default function Navbar() {
 
   return (
-    <nav id="navbar" className="navbar">
+    <nav id="navbar" className={Styles.navbar}>
       <ul>
         {NAV.map(data =>
           <NavLink name={data.name} link={data.link} act={data.act} key={data.name} classDown={data?.classDown} >
@@ -28,7 +30,7 @@ export default function Navbar() {
           </NavLink>
         )}
       </ul>
-      <i className="bi bi-list mobile-nav-toggle" />
+      <i className={"bi bi-list " + Styles["mobile-nav-toggle"]} />
     </nav>
   )
 }

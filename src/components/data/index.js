@@ -360,6 +360,78 @@ const GALLERY_DATA = [
     },
 ]
 
+const FOOTER_DATA = [
+    {
+        "name":"Home",
+        "link":"#"
+    },
+    {
+        "name":"About us",
+        "link":"#"
+    },
+    {
+        "name":"Services",
+        "link":"#"
+    },
+    {
+        "name":"Terms of service",
+        "link":"#"
+    },
+    {
+        "name":"Privacy policy",
+        "link":"#"
+    },
+]
+
+const FOOTER_DATA_SERVICES = [
+    {
+        "name":"Web Design",
+        "link":"#"
+    },
+    {
+        "name":"Web Development",
+        "link":"#"
+    },
+    {
+        "name":"Product Management",
+        "link":"#"
+    },
+    {
+        "name":"Marketing",
+        "link":"#"
+    },
+    {
+        "name":"Graphic Design",
+        "link":"#"
+    },
+]
+const FOOTER_DATA_SOCIAL = [
+    {
+        "className":"twitter",
+        "name":"bx bxl-twitter",
+        "link":"#"
+    },
+    {
+        "className":"facebook",
+        "name":"bx bxl-facebook",
+        "link":"#"
+    },
+    {
+        "className":"instagram",
+        "name":"bx bxl-instagram",
+        "link":"#"
+    },
+    {
+        "className":"google-plus",
+        "name":"bx bxl-skype",
+        "link":"#"
+    },
+    {
+        "className":"linkedin",
+        "name":"bx bxl-linkedin",
+        "link":"#"
+    },
+]
 export { 
     NAV,
     ABOUT_DATA,
@@ -370,5 +442,8 @@ export {
     TESTIMONIAL_DATA,
     TEAM_DATA,
     SOCIAL_CLASS,
-    GALLERY_DATA
+    GALLERY_DATA,
+    FOOTER_DATA,
+    FOOTER_DATA_SERVICES,
+    FOOTER_DATA_SOCIAL
 };

@@ -1,7 +1,7 @@
 import React from 'react'
 import PortfolioDetail from './PortfolioDetail'
 import Breadcrumbs from '../../../../common/Breadcrumbs/Breadcrumbs'
-import Header from '../../../../common/header'
+import Header from '../../../../common/Header'
 export default function PortfolioDetails() {
     return (
         <>

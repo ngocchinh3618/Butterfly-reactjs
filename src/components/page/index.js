@@ -5,11 +5,12 @@ import Count from './Counts'
 import Clients from './Clients'
 import Services from './Services'
 import Portfolios from "./Portfolio"
-import Header from '../../common/header'
+import Header from '../../common/Header'
 import Testimonials from './Testimonials'
 import Teams from './Teams'
 import Galleries from './Gallery'
 import Contacts from './Contact'
+import Footer from '../../common/Footer'
 export default function Index() {
     return (
         <>
@@ -26,6 +27,7 @@ export default function Index() {
                 <Galleries />
                 <Contacts />
             </main>
+            <Footer/>   
         </>
     )
 }

@@ -3,10 +3,14 @@ import PortfolioDetailSlider from './PortfolioDetailSlider'
 import PortfolioDetailInfo from './PortfolioDetailInfo'
 import PortfolioDetailDesc from './PortfolioDetailDesc'
 import { PORTFOLIO_DATA } from '../../../data'
-import { useParams } from 'react-router-dom'
+// import { useParams } from 'react-router-dom'
 import Styles from './Portfoliodetail.module.css'
+import { useLocation } from 'react-router-dom'
 export default function PortfolioDetail() {
-    const {id} = useParams() 
+   
+    const { state } = useLocation();
+    const {id} = state;
+    // const {id} = useParams() 
     const detailPortfolio = PORTFOLIO_DATA.find(el => el.id === Number(id))
 
     return (

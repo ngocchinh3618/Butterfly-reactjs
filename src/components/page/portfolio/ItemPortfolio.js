@@ -1,8 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Styles from "./Portfolio.module.css"
+import Styles from "./Portfolio.module.css";
+import { useNavigate } from 'react-router-dom';
 
 export default function ItemPortfolio(props) {
+  const navigate = useNavigate();
+  const onDivClick = ()=>{
+   navigate('portfolio-details', { state : props})
+  }
   return (
     <div className="col-lg-4 col-md-6 portfolio-item filter-app">
       <div className={Styles['portfolio-wrap']}>
@@ -15,11 +20,14 @@ export default function ItemPortfolio(props) {
               to={props.linkImg} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1">
               <i className="bx bx-plus"></i>
             </Link>
-            <Link
+            <div onClick={onDivClick}>
+              <i className="bx bx-link"></i>
+            </div>
+            {/* <Link
               to={`/portfolio-details/${props.id}`}
               title="More Details">
               <i className="bx bx-link"></i>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -12,7 +12,8 @@ export default function Directions() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/portfolio-details/:id" element={<PortfolioDetails />} />
+        {/* <Route path="/portfolio-details/:id" element={<PortfolioDetails />} /> */}
+        <Route path="/portfolio-details" element={<PortfolioDetails />} />
       </Routes>
     </BrowserRouter>
   )
